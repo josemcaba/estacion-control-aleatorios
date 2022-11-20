@@ -1,5 +1,5 @@
-let minutos = 1
 let alarma = 0
+let minutos = 1
 pins.servoWritePin(AnalogPin.P16, 0)
 basic.forever(function () {
     if (ESP8266_IoT.wifiState(false)) {
